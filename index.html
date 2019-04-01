@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" grid-content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" grid-content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="_style/style.css">
+</head>
+
+<style>
+
+.grid-demo .grid-content{
+    background: #a5e6d4;
+    min-height: 30px;
+}
+
+</style>
+
+<body>
+        <div class="grid">
+                <div class="grid-12">
+                    <div class="grid-content">
+                            <h1>Forms</h1>
+                    </div>
+                </div>
+            </div>
+    <div class="grid frame"  data-label="Form">
+        <div class="grid-12">
+            <div class="grid-content form-content">
+                <form action="" class="form">
+                    <div class="form-group">
+                        <div class="input">
+                            <input type="email" name="mail" id="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                        </div>
+                        <label class="label" for="mail">E mail</label>
+                    </div>
+                    <div class="form-group">
+                        <div class="input">
+                            <input type="text" name="name" id="name">
+                        </div>
+                        <label class="label" for="name">Name</label>
+                    </div>
+                    <div class="form-group">
+                        <div class="input">
+                            <input type="password" name="pass" id="pass">
+                        </div>
+                        <label class="label" for="pass">Password</label>
+                    </div>
+                    <div class="form-group frame" data-label="Sex">
+                        <label for="opt1" class="radio">
+                            <input type="radio" name="rdo" id="opt1" class="hidden"/>
+                            <span></span>
+                            <small>Female</small>
+                          </label>
+                          
+                          <label for="opt2" class="radio">
+                            <input type="radio" name="rdo" id="opt2" class="hidden"/>
+                            <span></span>
+                            <small>Male</small>
+                          </label>
+                    </div>
+                    <br>
+                    <div class="form-group check">
+                        <input class="inp-cbx" id="cbx" type="checkbox" style="display: none;"/>
+                        <label class="cbx" for="cbx"><span>
+                            <svg width="12px" height="10px" viewbox="0 0 12 10">
+                              <polyline points="1.5 6 4.5 9 10.5 1"></polyline>
+                            </svg></span><span>CodePenChallenge</span></label>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+<div class="grid">
+    <grid class="grid-12">
+        <form action="" class="form">
+            <div class="input input-search">
+                <input type="search" name="input-search" id="input-search" placeholder="Search...">
+            </div>
+        </form>
+    </grid>
+</div>
+
+    <div class="grid">
+        <div class="grid-12">
+            <div class="grid-content">
+                    <h1>Layout</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="grid grid-demo">
+        <div class="grid-12">
+            <div class="grid-content"></div>
+        </div>
+    </div>
+    <div class="grid grid-demo">
+        <div class="grid-xl-6 grid-md-12 grid-12">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-6 grid-md-12 grid-12">
+            <div class="grid-content"></div>
+        </div>
+    </div>
+    <div class="grid grid-demo">
+        <div class="grid-xl-4 grid-md-4 grid-12">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-4 grid-md-4 grid-12">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-4 grid-md-4 grid-12">
+            <div class="grid-content"></div>
+        </div>
+    </div>
+    <div class="grid grid-demo">
+        <div-grid-xl-3 class="grid-md-3 grid-xs-6 grid-12">
+            <div class="grid-content"></div>
+        </div-grid-xl-3>
+        <div-grid-xl-3 class="grid-md-3 grid-xs-6 grid-12">
+            <div class="grid-content"></div>
+        </div-grid-xl-3>
+        <div-grid-xl-3 class="grid-md-3 grid-xs-6 grid-12">
+            <div class="grid-content"></div>
+        </div-grid-xl-3>
+        <div-grid-xl-3 class="grid-md-3 grid-xs-6 grid-12">
+            <div class="grid-content"></div>
+        </div-grid-xl-3>
+    </div>
+
+    <div class="grid grid-demo">
+        <div class="grid-xl-2 grid-md-4 grid-xs-6 grid-12">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-2 grid-md-4 grid-xs-6 grid-12">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-2 grid-md-4 grid-xs-6 grid-12">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-2 grid-md-4 grid-xs-6 grid-12">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-2 grid-md-4 grid-xs-6 grid-12">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-2 grid-md-4 grid-xs-6 grid-12">
+            <div class="grid-content"></div>
+        </div>
+    </div>
+    <div class="grid grid-demo">
+        <div class="grid-xl-1">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-1">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-1">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-1">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-1">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-1">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-1">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-1">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-1">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-1">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-1">
+            <div class="grid-content"></div>
+        </div>
+        <div class="grid-xl-1">
+            <div class="grid-content"></div>
+        </div>
+    </div>
+
+
+    <script>
+    (function(){
+        var formsCollection = document.querySelectorAll("form");
+        for (let index = 0; index < formsCollection.length; index++) {
+            var elements = formsCollection[index].elements;
+            setEvent(elements);
+        }
+
+        function emailValidate(element){
+            //console.log(elements[index].validity.valid);
+            var is_valid = element.validity.valid;
+            if(!is_valid){
+                element.parentElement.parentElement.children[1].className = "label active error";
+                element.parentElement.className = element.parentElement.className + " error";
+            }  
+        }
+
+        function setEvent(elements){
+
+
+            var focusInput = function(){
+              
+
+                if(this.type == "search"){
+                    this.parentElement.className = this.parentElement.className + " focus focusable";
+                }else{
+                    this.parentElement.className = this.parentElement.className + " focus";
+                    this.parentElement.parentElement.children[1].className = "label active";
+                    this.parentElement.className =  this.parentElement.className.replace("error", "");
+
+                }
+
+            }
+            var blurInput = function(){
+
+                if(this.type == "search"){
+                    this.parentElement.className = this.parentElement.className.replace(" focus focusable","");
+                }
+                if (this.value <= 0 && this.type != "search") {
+                    this.parentElement.className = this.parentElement.className.replace("focus","");
+                    this.parentElement.parentElement.children[1].className = "label error";
+                    this.parentElement.className = this.parentElement.className + " error";
+                }else
+                {
+                    if(this.type == "email")
+                    {
+                        emailValidate(this);
+                    }
+                }
+
+            }
+
+            for (let index = 0; index < elements.length; index++) {
+                if (elements[index].type == "text" || elements[index].type == "email" || elements[index].type == "password" || elements[index].type == "search") {
+                    elements[index].addEventListener('focus', focusInput); 
+                    elements[index].addEventListener('blur', blurInput); 
+                    
+                    // el input tiene valores escritos
+                    if(elements[index].value.length > 0)
+                    {
+                        elements[index].parentElement.parentElement.children[1].className = "label active";
+                    }
+
+                    // validar el input tipo email 
+                    if (elements[index].type == "email" ) {
+                        emailValidate(elements[index]);
+                    }
+                    
+
+                }
+            }
+        }
+
+    }())
+    </script>
+</body>
+</html>

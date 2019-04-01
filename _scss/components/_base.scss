@@ -1,0 +1,21 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+@import "../mixins/mixins";
+
+body{
+    font-family: 'Roboto', Tahoma, Geneva, Verdana, sans-serif;
+}
+*, *:after, *:before {
+    margin: 0;
+    padding: 0;
+    @include border-box;
+    }
+     
+img {
+    width: auto;
+    max-width: 100%;
+    height: auto !important; 
+    }  
+.hidden{
+    display: none;
+}
